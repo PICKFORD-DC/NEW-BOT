@@ -30,6 +30,7 @@ handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(tiktok|tiktokdl)$/i
 handler.limit = true
+handler.private = ?
 module.exports = handler
 
 /*
@@ -46,7 +47,6 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 }
 handler.help = ['tiktok <url>']
 handler.tags = ['downloader']
-
 handler.command = /^(tik|tt|tiktok)$/i
 
 module.exports = handler
