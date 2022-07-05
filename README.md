@@ -10,12 +10,12 @@ Jangan lupa untuk mengikuti github ku
 * My WhatsApp [BOT NUMBER] [`Click Here`](https://wa.me/6287877019362?text=Assalamualaikum)
 
 ## Heroku Buildpack
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aiinne/Aine-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/PICKFORD-DC/NEW-BOT)
 
 | BuildPack | LINK |
 |--------|--------|
-| **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
-| **IMAGEMAGICK** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+| **FFMPEG** |[link](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
+| **IMAGEMAGICK** | [link](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
 
 ---------
 
@@ -36,7 +36,7 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/Aiinne/Aine-MD
+git clone https://github.com/PICKFORD-DC/NEW-BOT
 cd Aine-MD
 pkg install yarn
 yarn
@@ -67,14 +67,14 @@ apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpa
 
 ---------
 
-[ INSTALLING NODEJS & AINE-MD ]
+[ INSTALLING NODEJS & MR_PRABOWO ]
 
 ```bash
 ubuntu
 curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
 apt install -y nodejs gcc g++ make
-git clone https://github.com/Aiinne/Aine-MD
-cd Aiinne-MD
+git clone https://github.com/PICKFORD-DC/NEW-BOT
+cd NEW-BOT
 npm install
 npm update
 ```
@@ -89,8 +89,8 @@ npm update
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Aiinne/Aine-MD
-cd Aiinne-MD
+git clone https://github.com/PICKFORD-DC/NEW-BOT
+cd NEW-BOT
 npm install
 npm update
 ```
