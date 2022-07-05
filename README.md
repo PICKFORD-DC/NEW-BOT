@@ -5,8 +5,9 @@ Don't forget to follow my github
 
 Script ini gratis, Jika ketahuan di jual, Script ini akan langsung di hapus.
 Jangan lupa untuk mengikuti github ku
-* My WhatsApp [`Click Here`](https://wa.me/6283806211924?text=Assalamualaikum)
+* My WhatsApp [owner] [`Click Here`](https://wa.me/6283806211924?text=Assalamualaikum)
 * My Facebook [`Click Here`](https://facebook.com/Ya)
+* My WhatsApp [BOT NUMBER] [`Click Here`](https://wa.me/6287877019362?text=Assalamualaikum)
 
 ## Heroku Buildpack
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Aiinne/Aine-MD)
