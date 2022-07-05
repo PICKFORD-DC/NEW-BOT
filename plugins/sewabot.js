@@ -33,10 +33,10 @@ wa.me/${owner[0]}
   productListInfo: {
   productSections: [{
   title:'Klik untuk order',
-  products:[{productId:'7487741964584083'}]}],
-  headerImage: { productId: '7487741964584083',
+  products:[{productId:'7804611876278344'}]}],
+  headerImage: { productId: '7804611876278344',
   jpegThumbnail: baper },
-  businessOwnerJid: `6283806211924@s.whatsapp.net`
+  businessOwnerJid: `6287877019362@s.whatsapp.net`
   },
   footerText: 'https://aiinne.github.io',
   }},{})
