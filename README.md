@@ -39,7 +39,7 @@ apt install imagemagick -y
 git clone https://github.com/PICKFORD-DC/NEW-BOT
 cd NEW-BOT
 pkg install yarn
-yarn
+yarn install
 yarn start
 ```
 ---------
