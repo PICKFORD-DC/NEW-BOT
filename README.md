@@ -40,7 +40,7 @@ git clone https://github.com/PICKFORD-DC/NEW-BOT
 cd NEW-BOT
 pkg install yarn
 yarn
-
+yarn start
 ```
 ---------
 
