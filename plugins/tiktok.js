@@ -28,7 +28,7 @@ const { nowm, wm, audio } = p
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(tiktok|tiktokdl)$/i
+handler.command = /^(tiktok|tiktokdl|tiktoknowm)$/i
 handler.limit = true
 module.exports = handler
 
