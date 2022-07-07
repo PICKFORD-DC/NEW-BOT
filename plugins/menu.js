@@ -1,7 +1,4 @@
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
-let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
-let res = await fetch(url)
-let buffer = await res.buffer()
 let fs = require('fs')
 let path = require('path')
 let fetch = require('node-fetch')
