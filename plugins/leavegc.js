@@ -33,6 +33,7 @@ const delay = time => new Promise(res => setTimeout(res, time))*/
 
 let handler = async (m, { conn, args, command }) => {
 	let group = m.chat
+        await m.reply('Siap 🫡',m.chat)
         await m.reply('Byee👋, Bot akan keluar dari group', m.chat) 
         await conn.delay(1000)
         await conn.groupLeave(group)
