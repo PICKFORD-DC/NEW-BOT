@@ -157,10 +157,10 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'MR_PRABOWO', null, 'https://aiinne.github.io/', 'Website', '', '', [
-      ['Donate', '/donasi'],
-      ['Sewa Bot', '/sewa'],
-      ['Owner', '/owner']
+    conn.sendHydrated(m.chat, text.trim(), 'MR_PRABOWO', null, 'https://github.com/Aiinne/Aine-MD', 'BASE BOT', 'https://www.facebook.com/profile.php?id=100077142458119', 'FACEBOOK', [
+      ['DONASI', '/donasi'],
+      ['SEWAH BOT', '/sewa'],
+      ['OWNER', '/owner']
     ], m)
     /*let url = `https://telegra.ph/file/ab1df70dfd5c2bac64da1.jpg`.trim()
     let res = await fetch(url)
