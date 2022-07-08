@@ -157,7 +157,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'MR_PRABOWO', null, 'https://github.com/Aiinne/Aine-MD', 'BASE', '+62 838 0621-1924', 'PHONE', [
+    conn.sendHydrated(m.chat, text.trim(), 'MR_PRABOWO', null, 'https://github.com/Aiinne/Aine-MD', 'BASE BOT', '+62 838 0621-1924', 'PHONE OWNER',null,'https://www.instagram.com/p/CdfoWv2h3bi/?igshid=YmMyMTA2M2Y=' [
       ['DONASI', '/donasi'],
       ['SEWAH BOT', '/sewa'],
       ['OWNER', '/owner']
