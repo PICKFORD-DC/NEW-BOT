@@ -45,9 +45,9 @@ Hai, %ucapan %name! 👋
 *Tanggal:* %date
 *Uptime:* %uptime (%muptime)
 
-*Limit:* %limit
-*Level:* %level
-*XP:* %exp
+
+
+
 %readmore`.trimStart(),
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
