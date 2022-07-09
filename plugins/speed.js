@@ -50,15 +50,15 @@ let handler = async (m, { conn }) => {
   m.reply(`
 
 *Waktu:* 
-%wib WIB
-%wita WITA
-%wit WIT
-*Hari:* %week
-*Tanggal:* %date
-*Uptime:* %uptime (%muptime)
-*Limit:* %limit
-*Level:* %level
-*XP:* %exp
+${wib} WIB
+${wita} WITA
+${wit} WIT
+*Hari:* ${week}
+*Tanggal:* ${date}
+*Uptime:* ${uptime} (${muptime})
+*Limit:* ${limit}
+*Level:* ${level}
+*XP:* ${exp}
 
 *Kecepatan Respon ${speed} millidetik*
 
