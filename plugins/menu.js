@@ -45,8 +45,7 @@ Hai, %ucapan %name! 👋
 *Tanggal:* %date
 *Uptime:* %uptime (%muptime)
 
-
-
+*Ⓟ untuk premium | Ⓛ untuk limit atau semua orang*
 
 %readmore`.trimStart(),
   header: ' *%category*',
