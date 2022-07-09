@@ -34,7 +34,7 @@ let tags = {
   'audio': 'AUDIO MENU',
   'maker': 'MAKER MENU',
 }
-const defaultMenu = {img
+const defaultMenu = {
   before: `
 Hai, %ucapan %name! 👋
   
