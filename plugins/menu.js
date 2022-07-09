@@ -6,7 +6,7 @@ let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 let levelling = require('../lib/levelling')
 let tags = {
-  'gabut' : 'NEW UPDATE MENU'
+  'gabut' : 'NEW UPDATE MENU',
   'rpgabsen': 'RPG-ABSEN',
   'rpg': 'RPG MENU',
   'game': 'GAME MENU',
