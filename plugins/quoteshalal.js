@@ -1,7 +1,7 @@
 let scrap = require("../lib/scraper_pinterest")
 let fetch = require('node-fetch')
 
-let handler = async (m, { conn, text, usedPrefix, command }) => {
+let handler = async (m, { conn, text, command }) => {
 	scrap.pinterest("kata kata Ustadz Abdulsomad","kata kata islam").then(a => a[Math.floor(Math.random() * a.length)]).then(b => conn.sendFile(m.chat,b,b,"Random Quotes",m))
    }
     
