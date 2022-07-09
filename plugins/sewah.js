@@ -1,6 +1,6 @@
 let fs = require('fs')
 let handler = async (m) => {
-let helloaine = fs.readFileSync('./mp3/sewa.gif')
+let helloaine = fs.readFileSync('./lib/sewa.gif')
 conn.sendFile(m.chat, helloaine, '', 'SEWAH BOT', m, true)
 }
 
