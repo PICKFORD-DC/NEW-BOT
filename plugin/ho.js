@@ -35,7 +35,7 @@ let tags = {
   'maker': 'MAKER MENU',
 }
 const defaultMenu = {
-  before: img `
+  before: `
 Hai, %ucapan %name! 👋
   
 *Waktu:* 
