@@ -2,6 +2,13 @@ let os = require('os')
 let util = require('util')
 let { performance } = require('perf_hooks')
 let { sizeFormatter } = require('human-readable')
+
+let fs = require('fs')
+let path = require('path')
+let fetch = require('node-fetch')
+let moment = require('moment-timezone')
+let levelling = require('../lib/levelling')
+
 let format = sizeFormatter({
   std: 'JEDEC', // 'SI' (default) | 'IEC' | 'JEDEC'
   decimalPlaces: 2,
