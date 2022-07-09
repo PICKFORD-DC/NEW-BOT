@@ -1,5 +1,12 @@
 let os = require('os')
 let util = require('util')
+
+let fs = require('fs')
+let path = require('path')
+let fetch = require('node-fetch')
+let moment = require('moment-timezone')
+let levelling = require('../lib/levelling')
+
 let { performance } = require('perf_hooks')
 let { sizeFormatter } = require('human-readable')
 let format = sizeFormatter({
@@ -41,6 +48,18 @@ let handler = async (m, { conn }) => {
   let neww = performance.now()
   let speed = neww - old
   m.reply(`
+
+*Waktu:* 
+%wib WIB
+%wita WITA
+%wit WIT
+*Hari:* %week
+*Tanggal:* %date
+*Uptime:* %uptime (%muptime)
+*Limit:* %limit
+*Level:* %level
+*XP:* %exp
+
 *Kecepatan Respon ${speed} millidetik*
 
 💬 Status :
