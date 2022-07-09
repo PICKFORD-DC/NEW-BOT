@@ -1,5 +1,6 @@
 const { BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, proto, generateWAMessageContent, generateWAMessage, prepareWAMessageMedia, areJidsSameUser, getContentType } = require('@adiwajshing/baileys')
 let fs = require('fs')
+let img = fs.readFileSync('./lib/20220709_140748.jpg')
 let path = require('path')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
@@ -33,7 +34,7 @@ let tags = {
   'audio': 'AUDIO MENU',
   'maker': 'MAKER MENU',
 }
-const defaultMenu = {
+const defaultMenu = {img
   before: `
 Hai, %ucapan %name! 👋
   
