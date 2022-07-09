@@ -34,8 +34,8 @@ let tags = {
   'audio': 'AUDIO MENU',
   'maker': 'MAKER MENU',
 }
-conn.SendFile(m.chat,img,
-  before: `
+const defaultMenu = {
+  before: img `
 Hai, %ucapan %name! 👋
   
 *Waktu:* 
