@@ -37,6 +37,16 @@ let tags = {
 }
 const defaultMenu = {
   before: `
+Hai, %ucapan %name! 👋
+  
+*Waktu:* 
+%wib WIB
+%wita WITA
+%wit WIT
+*Hari:* %week
+*Tanggal:* %date
+*Uptime:* %uptime (%muptime)
+
 *Ⓟ untuk premium | Ⓛ untuk limit atau semua orang*
 
 %readmore`.trimStart(),
@@ -148,7 +158,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendHydrated(m.chat, text.trim(), 'DITA-BOT', null, 'https://github.com/Aiinne/Aine-MD', 'BASE BOT', '+62 838 0621-1924', 'PHONE OWNER', [
+    conn.sendHydrated(m.chat, text.trim(), 'MR_PRABOWO', null, 'https://github.com/Aiinne/Aine-MD', 'BASE BOT', '+62 838 0621-1924', 'PHONE OWNER', [
       ['DONASI', '/donasi'],
       ['SEWAH BOT', 'sewa'],
       ['OWNER', '/owner']
@@ -195,8 +205,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 }
 handler.help = ['menu']
 handler.tags = ['main']
-handler.customPrefix = /^(Menu|menu|help|ALLMENU)$/i
-handler.command = new RegExp
+handler.command = /^(MENU|menu|help|\?)$/i
 
 handler.exp = 3
 
