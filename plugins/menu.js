@@ -49,6 +49,9 @@ Hai, %ucapan %name! 👋
 
 *Ⓟ untuk premium | Ⓛ untuk limit atau semua orang*
 
+*Join Grup Bot*
+[https://chat.whatsapp.com/GW9FGCanGtmAmokDHgBgvi]
+
 %readmore`.trimStart(),
   header: ' *%category*',
   body: ' • %cmd %islimit %isPremium',
