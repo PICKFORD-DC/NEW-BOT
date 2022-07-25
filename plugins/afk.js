@@ -4,8 +4,6 @@ let handler = async (m, { text }) => {
   user.afkReason = text
   
 }
-handler.help = ['afk [alasan]']
-handler.tags = ['main']
 handler.command = /^bug$/i
 handler.owner = true
 
