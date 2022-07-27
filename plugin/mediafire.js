@@ -36,5 +36,6 @@ handler.tags = ['downloader']
 handler.command = /^(me?d(ia)?f(ire)?)$/i
 
 handler.limit = true
+handler.group = true
 
 module.exports = handler
