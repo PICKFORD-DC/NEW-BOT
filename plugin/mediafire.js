@@ -8,7 +8,7 @@ let handler = async (m, { isOwner, isPrems, command, usedPrefix, text, args, con
      else limit = 100
      if (!args[0]) throw `uhm.. url nya mana?\n\ncontoh:\n${usedPrefix + command} https://www.mediafire.com/file/941xczxhn27qbby/GBWA_V12.25FF-By.SamMods-.apk/file`
      if (!args[0].match(/mediafire/gi)) throw `url salah`
-     const sentMsg = await m.reply('*_Tunggu Sebentar Yaa Kak Sedang Dita Memprosesnya ><..._*')
+     const sentMsg = await m.reply('Tunggu Sebentar Yaa Kak Dita Sedang Memprosesnya ><...')
      let full = /f$/i.test(command)
      let u = /https?:\/\//.test(args[0]) ? args[0] : 'https://' + args[0]
      let ss = await (await fetch(global.API('nrtm', '/api/ssweb', { delay: 1000, url: u }))).buffer()
@@ -36,6 +36,5 @@ handler.tags = ['downloader']
 handler.command = /^(me?d(ia)?f(ire)?)$/i
 
 handler.limit = true
-handler.group = true
 
 module.exports = handler
