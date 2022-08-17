@@ -11,7 +11,7 @@ global.mods = [] // Want some help?
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
-  alfa: 'https://api.zeeoneofc.xyz'
+  alfa: 'https://api.zeeoneofc.xyz',
   riy: 'https://api-riychdwayne.herokuapp.com',
   nrtm: 'https://nurutomo.herokuapp.com',
   xteam: 'https://api.xteam.xyz',
@@ -27,7 +27,7 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.zeeoneofc.xyz': 'V12'
+  'https://api.zeeoneofc.xyz': 'V12',
   'https://api-riychdwayne.herokuapp.com': 'RiyGanz',
   'https://api.xteam.xyz': 'apikeyaine',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
